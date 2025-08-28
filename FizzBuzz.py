@@ -2,7 +2,7 @@
 """
 FizzBuzz Interview Solution
 
-A simple, maintainable implementation that prints numbers from 1 to 100.
+A simple, maintainable implementation that allows users to input custom ranges.
 For multiples of 3, prints "Fizz"; for multiples of 5, prints "Buzz";
 for multiples of both 3 and 5, prints "FizzBuzz".
 
@@ -11,6 +11,7 @@ Features:
 - Flexible for future requirements
 - Clean, readable code
 - Proper error handling
+- Custom range input with retry on invalid input
 """
 
 def fizzbuzz(n):

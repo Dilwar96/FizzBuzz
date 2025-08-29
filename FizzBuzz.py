@@ -22,14 +22,14 @@ def fizzbuzz(n):
         n (int): The number to process
         
     Returns:
-        str: "Fizz", "Buzz", "FizzBuzz", or the number as string
+        str: "Fizz", "Buss", "FizzBuss", or the number as string
     """
-    if n % 3 == 0 and n % 5 == 0:
-        return "FizzBuzz"
+    if n % 3 == 0 and n % 7 == 0:
+        return "FizzBuss"
     elif n % 3 == 0:
         return "Fizz"
-    elif n % 5 == 0:
-        return "Buzz"
+    elif n % 7 == 0:
+        return "Buss"
     else:
         return str(n)
 
